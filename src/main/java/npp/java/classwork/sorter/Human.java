@@ -1,3 +1,5 @@
+package npp.java.classwork.sorter;
+
 /**
  * Created by aleksandr on 19.04.14.
  */

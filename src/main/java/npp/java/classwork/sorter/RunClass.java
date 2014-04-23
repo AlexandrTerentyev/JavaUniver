@@ -1,3 +1,5 @@
+package npp.java.classwork.sorter;
+
 import java.io.FileNotFoundException;
 
 /**
@@ -6,7 +8,7 @@ import java.io.FileNotFoundException;
 public class RunClass {
     public static void main (String[] args){
         try {
-            SortingTool.sort("/Terentyev_Java/src/main/java/data.csv" , "/Terentyev_Java/src/main/java/output.csv");
+            SortingTool.sort("/JavaUniver/src/main/java/npp/java/classwork/sorter/data.csv" , "/JavaUniver/src/main/java/npp/java/classwork/sorter/output.csv");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
