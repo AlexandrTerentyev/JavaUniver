@@ -14,9 +14,9 @@ public class FindRun {
             File file = new File("/JavaUniver/src/main/java/npp/java/homework/april2614/findWord/input.txt");
             BufferedReader bufReader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
 
-            LinkedList<Integer> result = Finder.findPositions(bufReader, "key".toCharArray());
+            LinkedList<Integer> result = Finder.findPositions(bufReader, "newKey".toCharArray());
             bufReader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
-            LinkedList<Integer> result1 = Finder.findWordNumbers(bufReader, "key");
+            LinkedList<Integer> result1 = Finder.findWordNumbers(bufReader, "newKey");
             System.out.print(result + "\n");
             System.out.print(result1 + "\n");
             bufReader.close();
